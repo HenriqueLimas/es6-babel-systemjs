@@ -1,6 +1,8 @@
 System.config({
   "transpiler": "babel",
   "paths": {
-    "*": "*.js"
+    "*": "dist/*.js",
+    "github:*": "jspm_packages/github/*.js"
   }
 });
+
